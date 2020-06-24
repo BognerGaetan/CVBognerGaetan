@@ -10,14 +10,6 @@ p
     display: block;
 	margin: 50px auto 30px auto;
 }
-.fa-graduation-cap, .fa-briefcase
-{
-	width: 40px;
-	height: 40px;
-	float: left;
-	padding-right: 0.7em;
-}
-
 .pictola {
 	display: flex;
 	justify-content: center;
@@ -38,6 +30,10 @@ p
 
 .fa-graduation-cap, .fa-briefcase {
 	color: #3a8eba;
+	width: 40px;
+	height: 40px;
+	float: left;
+	padding-right: 0.7em;
 }
 .picto {
 	display: flex;
@@ -117,8 +113,8 @@ p
 }
 #colonne2
 {	
-	padding-left: 4em;
-		width: 820px;
+	padding-left: 3em;
+		width: 720px;
 }
 .c1p1, .txtapdm
 {
