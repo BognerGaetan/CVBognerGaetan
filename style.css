@@ -2,7 +2,7 @@ p
 {
 	color: Black;
 	font-size: 1.15em;
-	font-family: Verdana, Arial, sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 .photocv
 {
@@ -18,6 +18,16 @@ p
 	
 }
 
+#conteneurtotal
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}	
+
 /* Picto loisirs */
 
 .ger,.eng {
@@ -26,9 +36,12 @@ p
 }
 .fa-microchip,.fa-futbol, .fa-music {
 	font-size: 2em;
+	border: 2px solid black;
+	border-radius: 50%; 
+	padding : 10px;
 }
 
-.fa-graduation-cap, .fa-briefcase {
+.fa-graduation-cap, .fa-briefcase, .fa-pencil-alt{
 	color: #3a8eba;
 	width: 40px;
 	height: 40px;
@@ -80,6 +93,7 @@ p
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 
@@ -104,18 +118,12 @@ p
 /* Fin Picto  */
 
 
-
-
 #colonne1
 {
 	background-color: #3a8eba;
-		width: 500px;
+		flex:1;
 }
-#colonne2
-{	
-	padding-left: 3em;
-		width: 720px;
-}
+
 .c1p1, .txtapdm
 {
 	padding-left: 2em;
@@ -130,6 +138,7 @@ p
 	color: #3a8eba;
 	font-weight: bold;
 	text-align: center;
+	font-size: 1.7em;
 }
 .contact
 {
@@ -139,22 +148,41 @@ p
 {
 	margin-top: 10em;
 }
-.loisirs
-{
-	margin-top: 20em ;
-	}
-	
 .txtapdm
 {
 	text-align: justify;
 }
+.loisirs
+{
+	margin-top: 20em ;
+	}
+
+
+
+
+/* Colonne 2  */
+
+#colonne2 
+{	
+	padding-left: 3em;
+	flex : 2;
+	
+}
+h2
+{
+	font-size: 1.7em;
+	border-bottom: 3px #3a8eba solid;
+	font-weight: 550;
+	
+}
+
 .nom1
 {
 	font-size: 3.5em;
 	text-shadow: 0.1em 0.1em 0.2em black;
 		margin-bottom: 0em;
 }
-.nom1p1
+.nom1p1 
 {
 	color: #3a8eba;
 }
@@ -166,56 +194,26 @@ p
 {
 	border-bottom: 3px #3a8eba solid;
 }
-#conteneur
-{
+.box
+{	
+	white-space: pre;
+	width: 60%;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: stretch;
-	align-content: stretch;
-}	
-h2
-{
-	font-size: 2.0em;
-	border-bottom: 3px #3a8eba solid;
-	font-weight: 550;
+	flex-wrap: wrap;
 	
 }
-
-
-/* Colonne 2  */
-
-ul 
-{
-	list-style-image: url("pcircle.png");
+.box>* {
+	flex: 0 0 50%;
+	margin: 2.5% 0 ;
+	align-self:center;
 }
-ul.a
-{
-	position: relative;
-	left: 200px;
-	bottom: 32px;
-	line-height: 1.6em;
+.header {
+flex: 0 0 100%;
 }
-ul.b 
-{
-	position: relative;
-	right: 35px;
-	font-style: italic;
-	font-weight: 500 ;
-	color: #303030;
+li{ color: #3a8eba; 
+	content: "• "; 
+	 style: none;
+}
 
+h4{ margin-bottom: -0.8em;
 }
-li
-{
-	font-weight: 550 ;
-}
-li:nth-child(2)
-{
-	list-style-image: url("p2circle.png");
-	}
-li:nth-child(7)
-{
-	list-style-image: url("p2circle.png");
-	}
-	
