@@ -211,9 +211,13 @@ h2
 flex: 0 0 100%;
 }
 li{ color: #3a8eba; 
-	content: "• "; 
-	 style: none;
+	margin-bottom: -1em;
+	font-weight:bold;
 }
-
+li:first-line{
+	color: black;
+	
+}
 h4{ margin-bottom: -0.8em;
+	font-weight:bold;
 }
