@@ -1,21 +1,10 @@
+body{margin:0;padding:0;}
+
 p
 {
 	color: Black;
 	font-size: 1.15em;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
-.photocv
-{
-	width: 180px;
-    display: block;
-	margin: 50px auto 30px auto;
-}
-.pictola {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-	
 }
 
 #conteneurtotal
@@ -26,14 +15,23 @@ p
 	justify-content: center;
 	align-items: stretch;
 	align-content: stretch;
-}	
+}
+
+
 
 /* Picto loisirs */
-
+.pictola {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	
+}
 .ger,.eng {
 	width: 50px;
 	height: 50px;
 }
+
 .fa-microchip,.fa-futbol, .fa-music {
 	font-size: 2em;
 	border: 2px solid black;
@@ -118,13 +116,23 @@ p
 /* Fin Picto  */
 
 
+
+/* Colonne1 */
+
 #colonne1
 {
 	background-color: #3a8eba;
 		flex:1;
 }
 
-.c1p1, .txtapdm
+.photocv
+{
+	width: 180px;
+    display: block;
+	margin: 50px auto 30px auto;
+}
+
+.c1mef, .txtapdm
 {
 	padding-left: 2em;
 	padding-right: 2em;
@@ -168,7 +176,7 @@ p
 	flex : 2;
 	
 }
-h2
+h3
 {
 	font-size: 1.7em;
 	border-bottom: 3px #3a8eba solid;
@@ -196,7 +204,6 @@ h2
 }
 .box
 {	
-	white-space: pre;
 	width: 60%;
 	display: flex;
 	flex-wrap: wrap;
@@ -211,13 +218,13 @@ h2
 flex: 0 0 100%;
 }
 li{ color: #3a8eba; 
-	margin-bottom: -1em;
+	margin-bottom: 1em;
 	font-weight:bold;
 }
 li:first-line{
 	color: black;
 	
 }
-h4{ margin-bottom: -0.8em;
+h4{ margin-bottom: 1em;
 	font-weight:bold;
 }
