@@ -33,10 +33,7 @@ li:first-child
 {
 	list-style-image: url("p2circle.png");
 	}
-li:nth-child(6)
-{
-	list-style-image: url("p2circle.png");
-	}
+
 .photocv
 {
 	width: 180px;
