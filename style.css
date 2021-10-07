@@ -1,0 +1,226 @@
+
+p
+{
+	color: Black;
+	font-size: 1.15em;
+	font-family: Verdana, Arial, sans-serif;
+}
+ul 
+{
+	list-style-image: url("pcircle.png");
+}
+ul.a
+{
+	position: relative;
+	left: 200px;
+	bottom: 32px;
+	line-height: 1.6em;
+}
+ul.b 
+{
+	position: relative;
+	right: 35px;
+	font-style: italic;
+	font-weight: 500 ;
+	color: #303030;
+
+}
+li
+{
+	font-weight: 550 ;
+}
+li:first-child
+{
+	list-style-image: url("p2circle.png");
+	}
+li:nth-child(6)
+{
+	list-style-image: url("p2circle.png");
+	}
+.photocv
+{
+	width: 180px;
+	height: 180px;
+    display: block;
+	margin: 50px auto 30px auto;
+}
+
+.hat
+{
+	width: 40px;
+	height: 40px;
+	float: left;
+	padding-right: 0.7em;
+}
+
+.briefcase
+{
+	width: 40px;
+	height: 40px;
+	float: left;
+	padding-right: 0.7em;
+}
+
+.pictola {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	
+}
+
+/* Picto loisirs */
+
+.newt,.badm,.music,.ger,.eng {
+	width: 50px;
+	height: 50px;
+}
+.picto {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+
+
+.picto1 {
+  position: relative;
+  width: auto;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3a8eba;
+}
+
+.picto1:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: Black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.picto2{
+  position: relative;
+  width: auto;
+}
+
+.picto2:hover .overlay {
+  opacity: 1;
+}
+
+.picto3{
+  position: relative;
+  width: auto;
+}
+
+.picto3:hover .overlay {
+  opacity: 1;
+}
+
+/* Fin Picto  */
+
+
+
+
+#colonne1
+{
+	background-color: #3a8eba;
+		width: 500px;
+}
+#colonne2
+{	
+	padding-left: 4em;
+		width: 820px;
+}
+.c1p1, .txtapdm
+{
+	padding-left: 2em;
+	padding-right: 2em;
+	}
+	
+.contact, .apdm, .loisirs
+{
+	border: 7px #303030 solid;
+	border-width: 10px;
+	background-color: #303030;
+	color: #3a8eba;
+	font-weight: bold;
+	text-align: center;
+}
+.contact
+{
+	margin-top:6em;
+}
+.apdm
+{
+	margin-top: 10em;
+}
+.loisirs
+{
+	margin-top: 20em ;
+	}
+	
+.txtapdm
+{
+	text-align: justify;
+}
+.nom1
+{
+	font-size: 3.5em;
+	text-shadow: 0.1em 0.1em 0.2em black;
+		margin-bottom: 0em;
+}
+.nom1p1
+{
+	color: #3a8eba;
+}
+.devt1
+{
+	font-size: 1.5em;
+}
+.devt1p1
+{
+	border-bottom: 3px #3a8eba solid;
+}
+#conteneur
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}	
+.tformation , .exp 
+{
+	
+	font-size: 2.0em;
+	border-bottom: 3px #3a8eba solid;
+	font-weight: 550;
+	
+}
+

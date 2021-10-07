@@ -1,0 +1,12 @@
+#conteneur
+	{
+	display: flex;
+	flex-direction: column-reverse;
+	
+}
+#colonne1
+{
+	background-color: #3a8eba;
+		width: auto;
+	margin: auto;
+}
