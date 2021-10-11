@@ -185,21 +185,27 @@ li:first-child
 {
 	text-align: justify;
 }
-.nom1
+h1
 {
 	font-size: 3.5em;
 	text-shadow: 0.1em 0.1em 0.2em black;
 		margin-bottom: 0em;
+		margin-top: 1em;
+		font-family: Verdana, Arial, sans-serif;
+		font-weight: 150;
+
 }
-.nom1p1
+.nom1
 {
 	color: #3a8eba;
 }
-.devt1
+h2
 {
 	font-size: 1.5em;
+	font-family: Verdana, Arial, sans-serif;
+		font-weight: lighter;
 }
-.devt1p1
+.dev1
 {
 	border-bottom: 3px #3a8eba solid;
 }
@@ -212,12 +218,13 @@ li:first-child
 	align-items: stretch;
 	align-content: stretch;
 }	
-.tformation , .exp 
+h3 
 {
-	
+	margin-top: 2.5em;
 	font-size: 2.0em;
 	border-bottom: 3px #3a8eba solid;
 	font-weight: 550;
-	
+	font-family: Verdana, Arial, sans-serif;
+		font-weight: bold;
 }
 
